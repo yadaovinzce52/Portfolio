@@ -1,13 +1,219 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+{% include "header.html" %}
 
+<!-- Page Header-->
+<header
+  class="masthead"
+  style="background-image: url('../static/assets/jpg/about.jpg')"
+>
+  <div class="container position-relative px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <div class="page-heading">
+          <h1>About Me</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center mb-4">Experiences</h1>
+        <h3 class="text-center mb-4">Professional</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img class="img-fluid object-fit-cover" src="../static/assets/png/FloridaLottery.png" alt="Florida Lottery">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #379789;">Full Stack Developer/Programming Analyst I</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #f9ba5e">Florida
+                        <span style="color: #f07b73;" class="font-weight-bold">Lottery</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">As a member of the Florida Lottery development team, I contribute to the migration of
+                                        legacy Oracle forms and applications to Oracle Cloud Infrastructure. I have
+                                        successfully
+                                        modernized legacy lottery game applications using Oracle APEX, implementing
+                                        intuitive
+                                        user interfaces and optimized workflows. Additionally, I developed automated testing
+                                        solutions using Java and Selenium to enhance the quality assurance process for
+                                        Oracle
+                                        APEX applications.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-3 order-2 order-lg-1">
+                    <small class="text-uppercase" style="color: #0b406a;">Software Test Engineer Intern</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #ee2837">Syntech
+                        <span style="color: #b7bd35;" class="font-weight-bold">Systems</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">As a Software Test Engineer Intern at Syntech Systems, I was responsible for
+                                    comprehensive
+                                    testing of the FuelMaster product's software and hardware components. Through active
+                                    participation in scrum meetings and sprint reviews, I gained valuable insights into
+                                    effective software team dynamics. Additionally, I benefited from mentorship that
+                                    enhanced
+                                    my understanding of software testing best practices and methodologies.</p>
+                </div>
+                <div class="col-md-6 text-center order-1 order-lg-2">
+                     <img class="object-fit-contain" src="../static/assets/jpg/Syntech.jpg" alt="Syntech">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                     <img class="object-fit-contain" src="../static/assets/jpg/TMH.jpg" alt="TMH">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #73a4be;">Patient Transport</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #0336ac">Tallahassee Memorial
+                        <span style="color: #5a9fd7;" class="font-weight-bold">Hospital</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">Prior to pursuing computer science, I worked as a
+                        Patient Transport Associate where I was responsible for safely transporting patients between
+                        medical departments and procedures. My duties included facilitating patient discharges,
+                        coordinating inter-departmental transfers, and assisting nursing staff with patient transfers
+                        between stretchers and beds while ensuring optimal patient comfort and safety.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-center mb-4">College</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                     <img class="" src="../static/assets/jpg/FSA.jpg" alt="FSA" width="50%">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #492d18;">Executive Board - Cultural Chair</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #4b8821">Filipino Student
+                        <span style="color: #f9d014;" class="font-weight-bold">Association</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">As Cultural Chair on the executive board of the Filipino
+                                    Student Association at Florida State University, I led and coordinated the
+                                    organization's cultural initiatives, with a primary focus on Filipino folk dance
+                                    programming. I, with the aid of other executive board members, successfully managed
+                                    and instructed a student dance ensemble, preparing them for performances at various
+                                    university and community events.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-3 order-2 order-lg-1">
+                    <small class="text-uppercase" style="color: #000000;">Multi Media Committee</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #782F40">Asian American
+                        <span style="color: #CEB888;" class="font-weight-bold">Student Union</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">Served as a key member of the Multi Media Committee within the Asian American
+                                    Student Union at
+                                    Florida State University, spearheading photography and videography initiatives. Led
+                                    efforts in
+                                    documenting student life events and coordinated multiple successful photography
+                                    galleries and
+                                    video projects that highlighted the significant role and impact of student
+                                    organizations on
+                                    campus life.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center order-1 order-lg-2">
+                     <img class="" src="../static/assets/png/AASU.png" width="50%">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                     <img class="" src="../static/assets/jpg/CapState.jpg" width="50%">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #000000;">Dance Captain</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #000000">Capitill
+                        <span style="color: #FFFFFF; text-shadow: 2px 2px 4px black;" class="font-weight-bold">State</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">As Dance Captain of Capitill State, the Hip Hop dance team within the Filipino
+                                    Student
+                                    Association, I led and mentored a competitive dance ensemble that participated in
+                                    annual
+                                    state-wide competitions at the University of Florida. Through this leadership role,
+                                    I
+                                    developed strong team management abilities, effectively resolving conflicts and
+                                    fostering
+                                    a collaborative team environment that enhanced both individual growth and group
+                                    performance.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <h3 class="text-center mb-4">Hobbies</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                     <img class="object-fit-contain" src="../static/assets/jpg/Photography.jpg" alt="Photography" width="100%">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #feb088;">Freelance Photographer</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #db3a30">Freelance</h1>
+{#                        <span style="color: #b7bd35;" class="font-weight-bold">Job</span></h1>#}
+                    <p class="text-secondary" style="line-height: 2;">My passion for photography was initially sparked
+                        through the guidance of my father and sister. This artistic pursuit quickly evolved into a
+                        professional endeavor, where I now specialize in graduation photography while actively expanding
+                        into other genres including infant and pet photography. My greatest satisfaction comes from
+                        capturing authentic moments of achievement and joy, preserving these meaningful milestones for
+                        my clients. <a href="{{ url_for("photography") }}">Check out my photography Portfolio</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-3 order-2 order-lg-1">
+                    <small class="text-uppercase" style="color: #e24400;">Fitness</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #000000">Gym/
+                        <span style="color: #63858b;" class="font-weight-bold">Sports</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">Life's too short not to take care of yourself!
+                        That's why I'm committed to hitting the gym 6 days a week (with one rest day, of course) and
+                        keeping up with my protein-packed diet. When I'm not pumping iron, you can catch me on the
+                        courts playing tennis, pickleball, or volleyball - it's a fun way to get my cardio in while
+                        leveling up my game!</p>
+                </div>
+                <div class="col-md-6 text-center order-1 order-lg-2">
+                     <img class="object-fit-contain" src="../static/assets/jpg/Workout.jpg" alt="Photography" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                     <img class="object-fit-contain" src="../static/assets/jpg/cars_bikes.jpg" alt="Photography" width="100%">
+                </div>
+                <div class="col-md-6 pt-3">
+                    <small class="text-uppercase" style="color: #000000;">Cars/Motorcycles</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #d4ad2c">Automotive</h1>
+{#                        <span style="color: #b7bd35;" class="font-weight-bold">Job</span></h1>#}
+                    <p class="text-secondary" style="line-height: 2;">My passion for cars and motorcycles started when I was
+                        a kid watching all of these movies featuring cars with the beautiful and powerful roar of a v8/v10/v12
+                        and ever since then I was hooked! So much so that I have treated myself to a powerful motorcycle and
+                        muscle car of my own that bring me joy everytime I start up their engines.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 pt-3 order-2 order-lg-1">
+                    <small class="text-uppercase" style="color: #cf884b;">Technology</small>
+                    <h1 class="h2 mb-4" style="font-weight: 600; color: #abc2d7">Advancements in
+                        <span style="color: #ffe9a5;" class="font-weight-bold">tech</span></h1>
+                    <p class="text-secondary" style="line-height: 2;">With how fast tech is growing and the multiple
+                    advancements in tech, it is hard to not gain interest in them. With the multiple applications of tech
+                    in every field in our everyday lives, being familiar with the surrounding tech is beneficial. From computers,
+                    to gaming, to audio and visual, there is always something in the world of tech for everyone. Even those
+                    that are hesitant to change.</p>
+                </div>
+                <div class="col-md-6 text-center order-1 order-lg-2">
+                     <img class="object-fit-contain" src="../static/assets/jpg/tech.jpg" alt="Photography" width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
-</html>
+
+{% include "footer.html" %}

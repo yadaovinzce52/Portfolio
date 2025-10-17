@@ -10956,3 +10956,12 @@ header.masthead .post-heading .meta a {
     -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
   }
 }
+
+/* Scoped sizing for Photography gallery */
+.photography-gallery img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

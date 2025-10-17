@@ -17,7 +17,7 @@ def home():  # put the application's code here
     skills_other = ['RESTful APIs', 'CI/CD Pipelines', 'Test-Driven Development', 'Cross-Device compatibility',
                     'Agile Development', 'Object-Oriented Programming', 'Data Structures', 'Algorithms', 'JSON']
     skills = {'Frontend': skills_front, 'Backend': skills_back, 'Tools': skills_tools, 'Other': skills_other}
-    return render_template('home.html', skills=skills, curr_year=curr_year)
+    return render_template('index.html', skills=skills, curr_year=curr_year)
 
 
 @app.route('/projects')
